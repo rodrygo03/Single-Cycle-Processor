@@ -1,7 +1,7 @@
 # Verilog Implementation of Simplified ARM LEGv8 Single Cycle Processor
 
 ## About
-This project implements a simplified ARM LEGv8 single cycle processor using Verilog. The design is based on the hardware schematic provided in `Processor-datapath.pdf` and the ARM Quick Reference Guide. The processor supports a subset of ARM LEGv8 instructions, and the design has been verified using `SingleCycleProcTest.v` test bench. Run the bash file `compile.sh` to compile and simulate using Icarus Verilog
+This project implements a simplified ARM LEGv8 single cycle processor using Verilog. The design is based on the hardware schematic provided in `Processor-datapath.pdf` and the `ARM-v8-Quick-Reference-Guide.pdf`. The processor supports a subset of ARM LEGv8 instructions, and the design has been verified using `SingleCycleProcTest.v` test bench. Run the bash file `compile.sh` to compile and simulate using Icarus Verilog
 
 ## Features
 - **Supported Instructions:**
@@ -26,11 +26,12 @@ This project implements a simplified ARM LEGv8 single cycle processor using Veri
     brew install icarus-verilog    # On macOS
 
 3. Compile and Simulate
-    ```bash compile.sh
+    ```bash 
+    bash compile.sh
 
 
 ## References
 - `Processor-datapath.pdf`: Provides the hardware schematic used in the design.
-- ARM Quick Reference Guide: Used to understand the instruction set and processor architecture.
+- `ARM-v8-Quick-Reference-Guide.pdf: Used to understand the instruction set and processor architecture.
 
 
